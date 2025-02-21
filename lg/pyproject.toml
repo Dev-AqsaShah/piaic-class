@@ -15,6 +15,7 @@ dependencies = [
 
 [project.scripts]
 lg = "lg:main"
+simple_flow = "lg.simple_workflow:run_chain"
 
 [build-system]
 requires = ["hatchling"]
