@@ -1,0 +1,20 @@
+[project]
+name = "class-2-202"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "aqsashah", email = "aqsanor665@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "selenium>=4.29.0",
+]
+
+[project.scripts]
+class-2-202 = "class_2_202:main"
+aqsa = "class_2_202.project2:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
